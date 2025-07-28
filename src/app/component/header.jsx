@@ -29,15 +29,13 @@ const Header = () => {
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
       <div className="mt-40 sm:mt-10 mb-5">
-        <Tilt options={defaultOptions} style={{ height: 250, width: 250 }}>
-          <Image
-            src="./assets/hero.jpeg"
-            alt="profile-photo"
-            width={200}
-            height={200}
-            className="rounded-full w-60"
-          />
-        </Tilt>
+        <Image
+          src="./assets/hero.jpeg"
+          alt="profile-photo"
+          width={200}
+          height={200}
+          className="rounded-full w-60"
+        />
       </div>
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
