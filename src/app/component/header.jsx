@@ -12,7 +12,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Purple_Purse, Red_Hat_Display } from "next/font/google";
 import Typewriter from "typewriter-effect";
-import { Tilt } from "react-tilt";
 
 const Header = () => {
   const defaultOptions = {
